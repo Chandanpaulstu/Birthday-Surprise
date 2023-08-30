@@ -42,6 +42,32 @@
 	<div class="balloons text-center" id="b5">
     	<h2 style="color:#8377E4;">E</h2>
     </div>
+
+	<!-- <div style="margin-top:50px;"></div> -->
+
+		<div class="balloons text-center" id="b6">
+    	<h2 style="color:#99C96A;">R</h2>
+    </div>
+    <div class="balloons text-center" id="b7">
+    	<h2 style="color:#20CFB4;">R</h2>
+	</div>
+	<div class="balloons text-center" id="b8">
+    	<h2 style="color:#D14D39;">Y</h2>
+	</div>
+	
+    
+	<!-- <div class="balloons text-center" id="b2">
+    	<h2 style="color:#0719D4;">B</h2>
+    </div>
+	<div class="balloons text-center" id="b3">
+    	<h2 style="color:#D14D39;">D</h2>
+    </div>
+	<div class="balloons text-center" id="b4">
+    	<h2 style="color:#8FAD00;">J</h2>
+    </div>
+	<div class="balloons text-center" id="b5">
+    	<h2 style="color:#8377E4;">E</h2>
+    </div>
     <div class="balloons text-center" id="b6">
     	<h2 style="color:#99C96A;">R</h2>
     </div>
@@ -53,7 +79,7 @@
 	</div>
 	<div class="balloons text-center" id="b9">
     	<h2 style="color:#F2B300;">Y</h2>
-	</div>
+	</div> -->
 
     <img src="Balloon-Border.png" width="100%" class="balloon-border">
 	<div class="container">
@@ -80,7 +106,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<img src="banner.png" class="bannar">
+				<!-- <img src="banner.png" class="bannar"> -->
+				<img src="test.png" class="bannar">
 			</div>
 		</div>
 		<div class="row cake-cover">
@@ -98,8 +125,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="row message">
-			<p>একটু রাগ কমালে ক্ষতি কি?  তোমার এ শুভ দিনে শুভ কামনায়, তোমারই আমি</p>
+		<div class="row message" id="birthdayMessage" style="display: none;">
+			<p>একটু রাগ কমালে ক্ষতি কি?</p>
+			<p>তোমার এ শুভ দিনে শুভ কামনায়,
+			                            </p>  <p>.... আমি</p>
 			<div class="col-md-12">
 				<!-- <p>Happy</p>
 				<p>Birthday</p>
@@ -110,6 +139,24 @@
 				<!-- <p>একটু রাগ কমালে ক্ষতি কি?  তোমার এ শুভ দিনে শুভ কামনায়, তোমারই আমি</p> -->
 			</div>
 		</div>
+		<!-- <div class="row message">
+			<p>একটু রাগ কমালে ক্ষতি কি?  তোমার এ শুভ দিনে শুভ কামনায়, .... আমি</p>
+			<div class="col-md-12">
+				 <p>Happy</p>
+				<p>Birthday</p>
+				<p>Jerry!!!!</p>
+				<p>God</p>
+				<p>Bless</p>
+				<p><strong>You!!!!!!!!!!</strong></p> -->
+				<!-- <p>একটু রাগ কমালে ক্ষতি কি?  তোমার এ শুভ দিনে শুভ কামনায়, তোমারই আমি</p> 
+			</div>
+		</div> -->
+		<script>
+			// Delayed message display
+			setTimeout(function() {
+				document.getElementById("birthdayMessage").style.display = "block";
+			}, 5000); // Delay in milliseconds (5 seconds)
+		</script>
 		<div class="navbar navbar-fixed-bottom">
 			<div class="row">
 				<div class="col-md-6 text-center col-md-offset-3">
@@ -126,6 +173,7 @@
 		</div>
 	</div>
 </body>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="effect.js"></script>
